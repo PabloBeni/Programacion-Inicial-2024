@@ -1,11 +1,4 @@
-/******************************************************************************
-
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
-
+/*Se ingresan la cantidad de horas trabajadas y el valor por hora de un empleado. Determinar el sueldo.*/
 #include <stdio.h>
 
 int main()
