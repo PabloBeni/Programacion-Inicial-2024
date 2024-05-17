@@ -11,15 +11,15 @@ int main(){
     printf("Ingrese numero de catalogo: ");
     scanf("%d", &nro_catalogo);
 
-
     if(nro_catalogo >= 1200 && nro_catalogo <= 90000){
-        if(nro_catalogo == 12121 || nro_catalogo == 18081 || nro_catalogo == 30012 || nro_catalogo == 45565 || (nro_catalogo >= 67000 && nro_catalogo <= 68000)) 
+        if(nro_catalogo == 12121 || nro_catalogo == 18081 || nro_catalogo == 30012 || nro_catalogo == 45565 || (nro_catalogo >= 67000 && nro_catalogo <= 68000)){
             printf("Producto defectuoso");    
-        else 
+        }else{
             printf("Producto NO defectuoso");
+        }
     }else{
         printf("FUERA DE CATALOGO");
-    }
+    };
 
     return 0;
 }
